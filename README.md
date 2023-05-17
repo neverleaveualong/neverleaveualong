@@ -1,5 +1,5 @@
 <div align=center>
-        <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=hello guys\n woo hyun sim%20render&fontSize=90" />
+        <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=hello guys%20render&fontSize=90" />
 </div>
 
 <div align=center>
