@@ -1,0 +1,11 @@
+<style>
+    .container {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 -10px;
+    }
+
+    .container a {
+        margin: 0 10px;
+    }
+</style>
