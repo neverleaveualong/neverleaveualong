@@ -5,11 +5,13 @@
     <a>
         <h4>🏫 Bachelor of Science in Computer Engineering Kangwon National University </br></br></br></br>
     </a>
+    <hr>
     <a>
-        <h4>✉️ Contact</br></br></br></br></br></br></br>
-        wmr06244@kangwon.ac.kr
+        </br><h4>✉️ Contact</br></br></br>
+        wmr06244@kangwon.ac.kr</br></br></br>
     </a>
     <a>
+    </br>
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=neverleaveualong&layout=compact)](https://github.com/anuraghazra/github-readme-stats"
          align="left">
     </a>
