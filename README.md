@@ -7,6 +7,7 @@
     </a>
     <a>
         <h4>✉️ Contact</br></br></br></br></br></br></br>
+        wmr06244@kangwon.ac.kr
     </a>
     <a>
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=neverleaveualong&layout=compact)](https://github.com/anuraghazra/github-readme-stats"
