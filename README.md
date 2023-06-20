@@ -11,11 +11,6 @@
         </br><h4>✉️ Contact</br></br></br>
         wmr06244@kangwon.ac.kr</br></br></br>
     </a>
-    <a>
-    </br>
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=neverleaveualong&layout=compact)](https://github.com/anuraghazra/github-readme-stats"
-         align="left">
-    </a>
-    <a href="https://solved.ac/wmr06244" style="margin-right: 10px;">
-        <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=wmr06244" alt="Solved.ac 프로필" align="left">
-        </div>
+
+<img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=wmr06244" alt="Solved.ac 프로필">
+
