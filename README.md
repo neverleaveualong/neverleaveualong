@@ -22,7 +22,7 @@
 
 
 <div style="width:200px; height:150px; border:1px solid red; float:left;">    
-    <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=wmr06244" alt="Solved.ac 프로필">
+    <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=wmr06244" alt="Solved.ac 프로필"></br></br></br></br>
 </div>
 
 
