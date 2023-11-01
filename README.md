@@ -1,13 +1,13 @@
-<div>
-    <h3> 🌠 Woo Hyun 🌠 </h3>
-    <h5><a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fneverleaveualong&count_bg=%23E10743&title_bg=%23000000&icon=github.svg&icon_color=%23FFFFFF&title=git&edge_flat=true"></a></h5></br></br>
-    <h2>🏫 Bachelor of Science in Computer Engineering Kangwon National University </h2>
-    <h4>➕ Minor - Precision Medicine Convergence Major ( NaverCloudMicroTracm )</h4>
-    <br><br>
-    <h3>✨ Interesting :: Machine learning and deep learning for smart healthcare</h3>
-    <h4>⚡ and.. Interested in research on computer graphics deep learning </h4>
-    <br><br><br><br>
-</div>
+
+<h3> 🌠 Woo Hyun 🌠 </h3>
+<h5><a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fneverleaveualong&count_bg=%23E10743&title_bg=%23000000&icon=github.svg&icon_color=%23FFFFFF&title=git&edge_flat=true"></a></h5></br></br>
+<h2>🏫 Bachelor of Science in Computer Engineering Kangwon National University </h2>
+<h4>➕ Minor - Precision Medicine Convergence Major ( NaverCloudMicroTracm )</h4>
+<br><br>
+<h3>✨ Interesting :: Machine learning and deep learning for smart healthcare</h3>
+<h4>⚡ and.. Interested in research on computer graphics deep learning </h4>
+<br><br><br><br>
+
 
 [![Velog's GitHub stats](https://velog-readme-stats.vercel.app/api/badge?name=neverleaveualong)](https://velog.io/@neverleaveualong)
 
