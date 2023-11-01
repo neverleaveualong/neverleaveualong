@@ -11,7 +11,8 @@
         <h4>⚡ and.. Interested in research on computer graphics deep learning </h4>
     <a></a>
     <br><br><br><br>
-
+</div>
+        
   [![Velog's GitHub stats](https://velog-readme-stats.vercel.app/api/badge?name=neverleaveualong)](https://velog.io/@neverleaveualong)
 
   <br><br>
@@ -31,8 +32,8 @@
 
               
 
-</div> 
-    <hr>
+ 
+    
     
 <div>
     </br>
@@ -40,6 +41,7 @@
     </br>
     ✉️ wmr06244@kangwon.ac.kr</br></br></br>
 </div>
+
 
 
 
