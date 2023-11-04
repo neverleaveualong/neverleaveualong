@@ -1,11 +1,11 @@
 
-<h3> 🌠 Woo Hyun 🌠 </h3>
-<h5><a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fneverleaveualong&count_bg=%23E10743&title_bg=%23000000&icon=github.svg&icon_color=%23FFFFFF&title=git&edge_flat=true"></a></h5></br></br>
-<h2>🏫 Bachelor of Science in Computer Engineering Kangwon National University </h2>
-<h4>➕ Minor - Precision Medicine Convergence Major ( NaverCloudMicroTracm )</h4>
+### 🌠 Woo Hyun 🌠 
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fneverleaveualong&count_bg=%23E10743&title_bg=%23000000&icon=github.svg&icon_color=%23FFFFFF&title=git&edge_flat=true"></a></h5></br></br>
+## 🏫 Bachelor of Science in Computer Engineering Kangwon National University 
+#### ➕ Minor - Precision Medicine Convergence Major ( NaverCloudMicroTracm )
 <br><br>
-<h3>✨ Interesting :: Machine learning and deep learning for smart healthcare</h3>
-<h4>⚡ and.. Interested in research on computer graphics deep learning </h4>
+### ✨ Interesting :: Machine learning and deep learning for smart healthcare
+#### ⚡ and.. Interested in research on computer graphics deep learning 
 <br><br><br><br>
 
 
@@ -27,7 +27,7 @@
 </div>
 
 <div>
-    <h3>💬 Ask me about ...</h3>
+    ### 💬 Ask me about ...
     <p>✉️ wmr06244@kangwon.ac.kr</p>
 </div>
 
