@@ -26,10 +26,10 @@
     <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
 </div>
 
-<div>
-    ### 💬 Ask me about ...
-    <p>✉️ wmr06244@kangwon.ac.kr</p>
-</div>
+
+### 💬 Ask me about ...
+<p>✉️ wmr06244@kangwon.ac.kr</p>
+
 
 <div style="width:200px; height:150px; border:1px solid red; float:left;">    
     <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=wmr06244" alt="Solved.ac 프로필">
