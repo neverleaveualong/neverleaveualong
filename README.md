@@ -2,7 +2,7 @@
 
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fneverleaveualong&count_bg=%23E10743&title_bg=%23000000&icon=github.svg&icon_color=%23FFFFFF&title=git&edge_flat=true"></a></h5></br></br>
 ## 🏫 Bachelor of Science in Computer Engineering Kangwon National University 
-#### ➕ Minor - Precision Medicine Convergence Major ( NaverCloudMicroTracm )
+#### ➕ Minor - Precision Medicine Convergence Major ( NaverCloudMicroTrack )
 <br><br>
 ### ✨ Interesting :: Create Private LLM
 #### ⚡ and.. Interested in Machine learning and deep learning for smart healthcare
@@ -15,8 +15,9 @@
 
 <div align=center><h1>📚 STACKS</h1></div>
 <div align=center> 
+    <img src="https://img.shields.io/badge/python-073551?style=for-the-badge&logo=python&logoColor=white">
+    <img src="https://img.shields.io/badge/C++-452170?style=for-the-badge&logo=cplusplus&logoColor=white">
     <img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=black"> 
-    <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white"> 
     <br>
     <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> 
     <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"> 
