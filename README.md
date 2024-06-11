@@ -27,7 +27,7 @@
     <img src="https://img.shields.io/badge/GIT-F05032?style=for-the-badge&logo=GIT&logoColor=white">
     <img src="https://img.shields.io/badge/Github-181717?style=for-the-badge&logo=Github&logoColor=white">
     <br>
-    <img src="https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=Colab&logoColor=white">
+    <img src="https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white">
     
 </div>
 
