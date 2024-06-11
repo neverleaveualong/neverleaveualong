@@ -24,7 +24,7 @@
     <br>
     <img src="https://img.shields.io/badge/linux-FCC624?style=for-the-badge&logo=linux&logoColor=black">
     <br>
-    <img src="https://img.shields.io/badge/GIT-#F05032?style=for-the-badge&logo=GIT&logoColor=white">
+    <img src="https://img.shields.io/badge/GIT-F05032?style=for-the-badge&logo=GIT&logoColor=white">
     <img src="https://img.shields.io/badge/Github-181717?style=for-the-badge&logo=Github&logoColor=white">
     
 </div>
