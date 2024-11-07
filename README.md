@@ -2,7 +2,7 @@
 
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fneverleaveualong&count_bg=%23E10743&title_bg=%23000000&icon=github.svg&icon_color=%23FFFFFF&title=git&edge_flat=true"></a></h5></br></br>
 ## 🏫 Bachelor of Science in Computer Engineering Kangwon National University 
-#### ➕ Minor - Precision Medicine Convergence Major ( NaverCloudMicroTrack )
+#### ➕ Minor - Precision Medicine Convergence Major
 <br><br>
 ### ✨ Interesting :: Create Private LLM
 #### ⚡ and.. Interested in Machine learning and deep learning for smart healthcare
