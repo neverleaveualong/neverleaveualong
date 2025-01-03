@@ -4,8 +4,8 @@
 ## 🏫 Bachelor of Science in Computer Engineering Kangwon National University 
 #### ➕ Minor - Precision Medicine Convergence Major
 <br><br>
-### ✨ Interesting :: Create Private LLM
-#### ⚡ and.. Interested in Machine learning and deep learning for smart healthcare
+### ✨ Interesting :: Frontend Engineer
+#### ⚡ and.. Interested in Machine learning and deep learning for develop
 <br><br><br><br>
 
 
