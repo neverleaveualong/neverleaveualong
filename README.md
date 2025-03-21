@@ -8,7 +8,6 @@
 #### ⚡ and.. Interested in Machine learning and deep learning for develop
 <br><br>
 
-
 [![Velog's GitHub stats](https://velog-readme-stats.vercel.app/api/badge?name=neverleaveualong)](https://velog.io/@neverleaveualong)
 
 <br><br>
@@ -36,16 +35,15 @@
     <img src="https://img.shields.io/badge/Github-181717?style=for-the-badge&logo=Github&logoColor=white">
     <br>
     <img src="https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white">
-    
 </div>
-
 
 ### 💬 Ask me about ...
 <p>✉️ wmr06244@kangwon.ac.kr</p>
 
-
-<div style="width:200px; height:150px; border:1px solid red; float:left;">    
+<div style="width:200px; height:150px; border:1px solid red; float:left; align=center;">    
     <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=wmr06244" alt="Solved.ac 프로필">
 </div>
-
-<br><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=neverleaveualong&layout=compact"><br><br>
+<br>
+<div aligb=center>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=neverleaveualong&layout=compact"><br><br>
+</div>
