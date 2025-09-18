@@ -60,4 +60,4 @@
 ✉️ wmr06244@naver.com  
 
 ### 🏆 Solved.ac (백준)
-[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=wmr06244)](https://solved.ac/profile/wmr06244)
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=simwoohyun)](https://solved.ac/profile/simwoohyun)
