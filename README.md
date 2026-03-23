@@ -44,7 +44,7 @@
 
 ### HyperStar &nbsp;—&nbsp; AI 인플루언서 마케팅 B2B SaaS
 
-> 2025.12 ~ 2026.03 · [hyper-star.org](https://hyper-star.org) · 소스코드 비공개 (전 직장)
+> 2025.12 ~ 2026.03 · [hyper-star.org](https://hyper-star.org) · 소스코드 비공개
 
 500만+ 인플루언서 DB 기반 AI 크리에이터 매칭 · 캠페인 관리 · 성과 분석 플랫폼.
 QA에서 시작해 프론트엔드 개발 · 인프라까지 역할을 확장했습니다.
