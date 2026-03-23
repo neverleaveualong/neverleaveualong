@@ -40,18 +40,6 @@
 
 <br>
 
-## Education
-
-**강원대학교(춘천)** &nbsp;|&nbsp; 컴퓨터공학과 (주전공) · 정밀의료융합전공 (부전공) &nbsp;|&nbsp; 2021.03 ~ 2026.02
-
-<br>
-
-## Certifications
-
-`정보처리기사` `빅데이터분석기사` `SQLD` `ADsP` `DAsP` `TOEIC 860`
-
-<br>
-
 ## Projects
 
 ### PlayceV &nbsp;—&nbsp; 위치 기반 스포츠 중계 맛집 플랫폼
@@ -121,6 +109,18 @@ QA에서 시작해 프론트엔드 개발 · 인프라까지 역할을 확장했
 **담당** &nbsp; 프론트엔드 API 연동 · 캠페인-크리에이터 통합 기능 개발 · Instagram 크롤링 파이프라인 · AWS 환경 분리(Demo/Dev)
 
 `React 19` `TypeScript` `Zustand` `React Query` `Recharts` `Tailwind CSS` `Node.js` `PostgreSQL` `AWS`
+
+<br>
+
+## Education
+
+**강원대학교(춘천)** &nbsp;|&nbsp; 컴퓨터공학과 (주전공) · 정밀의료융합전공 (부전공) &nbsp;|&nbsp; 2021.03 ~ 2026.02
+
+<br>
+
+## Certifications
+
+`정보처리기사` `빅데이터분석기사` `SQLD` `ADsP` `DAsP` `TOEIC 860`
 
 <br>
 
