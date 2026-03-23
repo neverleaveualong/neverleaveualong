@@ -44,7 +44,7 @@
 
 ### HyperStar &nbsp;—&nbsp; AI 인플루언서 마케팅 B2B SaaS
 
-> [hyper-star.org](https://hyper-star.org) · 소스코드 비공개 (전 직장)
+> 2025.12 ~ 2026.03 · [hyper-star.org](https://hyper-star.org) · 소스코드 비공개 (전 직장)
 
 500만+ 인플루언서 DB 기반 AI 크리에이터 매칭 · 캠페인 관리 · 성과 분석 플랫폼.
 QA에서 시작해 프론트엔드 개발 · 인프라까지 역할을 확장했습니다.
@@ -55,9 +55,9 @@ QA에서 시작해 프론트엔드 개발 · 인프라까지 역할을 확장했
 
 ---
 
-### PlayceV &nbsp;—&nbsp; 위치 기반 스포츠 중계 맛집 플랫폼
+### Playce &nbsp;—&nbsp; 위치 기반 스포츠 중계 맛집 플랫폼
 
-> [Live](https://playce-app.vercel.app) · [GitHub](https://github.com/neverleaveualong/PlayceV) · 6인 팀 FE 메인 개발자 (코드 기여 52%)
+> 2025.06 ~ 2025.06, 2026.03 · [Live](https://playce-app.vercel.app) · [GitHub](https://github.com/neverleaveualong/PlayceV) · 6인 팀 FE 메인 개발자 (코드 기여 52%)
 
 카카오맵 위에 주변 식당과 스포츠 중계 일정을 확인할 수 있는 SPA.
 프론트엔드 핵심 기능을 전담하고, 이후 단독으로 코드 품질 · 성능 · 테스트 · CI까지 개선했습니다.
@@ -78,7 +78,7 @@ QA에서 시작해 프론트엔드 개발 · 인프라까지 역할을 확장했
 
 ### TechLens &nbsp;—&nbsp; 특허 인텔리전스 분석 대시보드
 
-> [Demo](https://frontend-techlens.vercel.app/login) · [GitHub](https://github.com/Douzone-Keycom-Internship-woohyun-2025) · 풀스택 단독 개발 (262 커밋)
+> 2025.11 ~ 2025.12, 2026.03 · [Demo](https://frontend-techlens.vercel.app/login) · [GitHub](https://github.com/Douzone-Keycom-Internship-woohyun-2025) · 풀스택 단독 개발 (262 커밋)
 
 KIPRIS 공공데이터 기반 특허 분석 및 시각화 B2B 웹앱.
 더존비즈온 인턴십에서 기획부터 배포까지 풀스택을 단독으로 개발했습니다.
@@ -96,7 +96,7 @@ KIPRIS 공공데이터 기반 특허 분석 및 시각화 B2B 웹앱.
 
 ### TechDocs &nbsp;—&nbsp; RAG 기반 특허 문서 AI 검색 플랫폼
 
-> [GitHub](https://github.com/neverleaveualong/TechDocs) · 개인 프로젝트 · 풀스택 단독 개발
+> 2026.03 · [GitHub](https://github.com/neverleaveualong/TechDocs) · 개인 프로젝트 · 풀스택 단독 개발
 
 KIPRIS 특허 데이터를 벡터 임베딩하여 자연어 의미 검색 + LLM 답변을 생성하는 RAG 시스템.
 TechLens에서 쌓은 특허 도메인 지식을 기반으로, AI 검색까지 확장한 프로젝트입니다.
