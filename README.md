@@ -16,6 +16,7 @@ React/TypeScript 기반 제품 개발 경험을 바탕으로 RAG, AI 검색, 자
 |---|---|---|
 | **TechDocs** | RAG 기반 특허 문서 AI 검색 서비스 | [GitHub](https://github.com/neverleaveualong/TechDocs) · [Demo](https://techdocs-psi.vercel.app) |
 | **TechLens** | 특허 공공데이터 기반 검색·분석 서비스 | [GitHub](https://github.com/Douzone-Keycom-Internship-woohyun-2025) · [Demo](https://frontend-techlens.vercel.app/login) |
+| **HyperStar** | AI 인플루언서 마케팅 B2B SaaS | [Service](https://hyper-star.org) · Source Private |
 | **Playce** | 위치 기반 스포츠 중계 장소 검색 서비스 | [GitHub](https://github.com/neverleaveualong/PlayceV) · [Demo](https://playce-app.vercel.app) |
 
 ### TechDocs
@@ -38,6 +39,16 @@ React/TypeScript 기반 제품 개발 경험을 바탕으로 RAG, AI 검색, 자
 - 특허 출원 추이, IPC 분포, 등록 상태를 확인하는 대시보드 구현
 - Controller, Service, Repository 계층 분리와 Zod 검증으로 API 안정성 개선
 
+### HyperStar
+
+**AI 인플루언서 마케팅 B2B SaaS**  
+`React` `TypeScript` `Zustand` `React Query` `Recharts` `AWS`
+
+- CES 2026 시연 준비 과정에서 QA, 오류 재현, 문서화 수행
+- 화면 동작, API 응답, 데이터 흐름을 분리해 문제 원인 추적
+- 캠페인 크리에이터 통합 기능과 프론트엔드 API 연동 개선
+- Demo/Dev 환경 분리와 AWS 기반 운영 환경 점검에 참여
+
 ### Playce
 
 **위치 기반 스포츠 중계 장소 검색 서비스**  
@@ -54,12 +65,12 @@ React/TypeScript 기반 제품 개발 경험을 바탕으로 RAG, AI 검색, 자
 
 ### Morning Weather Bot
 
-**GitHub Actions 기반 아침 브리핑 자동화 봇**  
+**GitHub Actions 기반 아침/저녁 브리핑 자동화 봇**  
 `Python` `Open-Meteo API` `Google Calendar iCal` `Telegram Bot API` `GitHub Actions`
 
 - GitHub: https://github.com/neverleaveualong/morning-weather-bot
-- 매일 오전 8시 GitHub Actions cron으로 자동 실행
-- 오늘/내일 할일과 원주·서울 날씨를 텔레그램으로 전송
+- 오전 8시에는 오늘 할일과 오늘 날씨를 텔레그램으로 전송
+- 오후 8시에는 내일 할일과 내일 날씨를 텔레그램으로 전송
 - GitHub Secrets 기반으로 Telegram token과 Calendar iCal URL 관리
 
 ---
