@@ -1,5 +1,6 @@
 # 심우현
 
+[심우현 개발자 포트폴리오](https://simwoohyun.vercel.app)
 **Frontend Engineer x AI Agent Engineer**
 
 React/TypeScript 기반 제품 개발 경험을 바탕으로 RAG, AI 검색, 자동화 워크플로우를 구현합니다.  
