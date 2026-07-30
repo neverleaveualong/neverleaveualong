@@ -1,7 +1,7 @@
 # 심우현 (SIM WOOHYUN)
 
-- 수정일자: 2026-07-30 17:18 KST
-- AI Agent · RAG · Full-stack SW Developer
+- 수정일자: 2026-07-30 17:24 KST
+- FullStack SW Developer
 
 > 고객사가 실제로 사용할 수 있는 솔루션의 문제를 주도적으로 파악하고, 데이터 분석·웹 서비스·AI Agent 기술로 구현해 온 SW 개발자입니다.
 
@@ -13,7 +13,7 @@
   - 고객 관점의 기능을 기획하고, 데이터 수집·백엔드 API·프론트엔드 상태관리·QA·배포까지 전체 흐름을 연결합니다.
   - 모델 호출 자체보다 데이터 흐름, 검색 근거, API 계약, 화면 상태, 테스트 가능성을 함께 설계합니다.
 - 포트폴리오: [simwoohyun.vercel.app](https://simwoohyun.vercel.app)
-- 이메일: `wmr06244@naver.com`
+- 이메일: `wmr06244@gmail.com`
 
 ## 목차
 
@@ -27,6 +27,15 @@
 ## 1. 개발 방향
 
 - AI를 단순한 API 호출 기능이 아니라 데이터 수집, 검색, 생성, 검증, 사용자 화면이 연결된 서비스로 구현합니다.
+- 개발만큼 문서화를 중요하게 생각합니다.
+  - 각 솔루션의 개발 과정과 변경 이유를 기록합니다.
+  - 코드가 어떤 순서로 동작하고 왜 그렇게 설계되었는지 설명할 수 있도록 문서화합니다.
+  - 기술을 사용했다는 사실보다 문제에 적합한 이유와 운영상 trade-off를 남깁니다.
+- 기능을 구현하기 전에 솔루션의 업무 흐름과 시스템 구조를 먼저 이해합니다.
+  - 사용자의 문제와 핵심 업무 흐름을 파악합니다.
+  - Controller, Service, Repository, 데이터베이스, 프론트엔드 상태가 어떻게 연결되는지 확인합니다.
+  - 기술 선택이 성능, 유지보수성, 비용, 확장성에 어떤 영향을 주는지 판단합니다.
+- 구현 이후에는 동작 결과와 변경 영향을 테스트하고, 다음 개발자가 빠르게 이해할 수 있도록 정리합니다.
 - 자연어 검색과 업무 자동화 기능을 만들 때 다음 흐름을 중요하게 봅니다.
   - 사용자의 입력을 명확한 요청으로 변환합니다.
   - 검색 결과에 근거와 출처를 연결합니다.
@@ -46,12 +55,12 @@
 
 ## 3. 프로젝트 요약
 
-| 번호 | 프로젝트 | 한 줄 설명 | 역할·링크 |
-| :---: | :--- | :--- | :--- |
-| 1 | **TechDocs** | 자연어 기반 특허 검색 및 침해 분석 플랫폼 | AI Agent·RAG·Full-stack · [GitHub](https://github.com/neverleaveualong/TechDocs) · [Demo](https://techdocs-app.vercel.app) |
-| 2 | **TechLens** | 중소·중견기업의 경쟁사 기술 동향을 돕는 특허 분석 대시보드 | 더존ICT그룹/키컴 인턴십 · [GitHub](https://github.com/Douzone-Keycom-Internship-woohyun-2025) · [Demo](https://frontend-techlens.vercel.app/login) |
-| 3 | **Playce** | 위치와 조건을 기반으로 스포츠 중계 장소를 찾는 서비스 | Frontend·상태관리·지도 API · [GitHub](https://github.com/neverleaveualong/PlayceV) · [Demo](https://playce-app.vercel.app) |
-| 4 | **HyperStar** | AI 인플루언서 매칭 B2B 서비스 | QA에서 프론트엔드 연동까지 · 비공개 프로젝트 |
+| 프로젝트 | 한 줄 설명 | 역할·링크 |
+| :--- | :--- | :--- |
+| **TechDocs** | 자연어 기반 특허 검색 및 침해 분석 플랫폼 | AI Agent·RAG·Full-stack · [GitHub](https://github.com/neverleaveualong/TechDocs) · [Demo](https://techdocs-app.vercel.app) |
+| **TechLens** | 중소·중견기업의 경쟁사 기술 동향을 돕는 특허 분석 대시보드 | 더존ICT그룹/키컴 인턴십 · [GitHub (FE)](https://github.com/Douzone-Keycom-Internship-woohyun-2025/Frontend) · [GitHub (BE)](https://github.com/Douzone-Keycom-Internship-woohyun-2025/Backend) · [Docs](https://github.com/Douzone-Keycom-Internship-woohyun-2025/Docs) · [Demo](https://techlens-app.vercel.app/login) |
+| **Playce** | 위치와 조건을 기반으로 스포츠 중계 장소를 찾는 서비스 | Frontend·상태관리·지도 API · [GitHub](https://github.com/neverleaveualong/PlayceV) · [Demo](https://playce-app.vercel.app) |
+| **HyperStar** | AI 인플루언서 매칭 B2B 서비스 | QA에서 프론트엔드 연동까지 · 비공개 프로젝트 |
 
 ## 4. 프로젝트별 경험
 
@@ -78,6 +87,11 @@
 - **프로젝트 개요**
   - 더존ICT그룹/키컴 인턴십에서 주요 고객인 중소·중견기업이 경쟁사 기술 동향을 파악할 수 있도록 KIPRIS 특허 분석 대시보드를 기획하고 구현했습니다.
   - KIPRIS는 특허 데이터가 많지만 사용자가 직접 비교·분석하기에는 복잡하다는 점에 주목해, 기술 분류와 기간별 추이를 한 화면에서 확인하는 방향으로 구성했습니다.
+- **코드와 문서**
+  - [Frontend 저장소](https://github.com/Douzone-Keycom-Internship-woohyun-2025/Frontend)
+  - [Backend 저장소](https://github.com/Douzone-Keycom-Internship-woohyun-2025/Backend)
+  - [Docs 저장소](https://github.com/Douzone-Keycom-Internship-woohyun-2025/Docs)
+  - 프론트엔드, 백엔드, 문서를 분리해 각 책임과 변경 이력을 확인할 수 있도록 구성했습니다.
 - **고객 문제와 해결 방향**
   - 고객 문제:
     - 경쟁사의 특허와 기술 분야 변화를 파악하려면 원천 데이터를 직접 검색하고 정리해야 했습니다.
@@ -148,7 +162,7 @@
 
 - 포트폴리오: [simwoohyun.vercel.app](https://simwoohyun.vercel.app)
 - GitHub: [github.com/neverleaveualong](https://github.com/neverleaveualong)
-- 이메일: `wmr06244@naver.com`
+- 이메일: `wmr06244@gmail.com`
 - 공개 프로젝트:
   - [TechDocs](https://github.com/neverleaveualong/TechDocs)
   - [PlayceV](https://github.com/neverleaveualong/PlayceV)
