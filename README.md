@@ -58,7 +58,7 @@
 | 프로젝트 | 한 줄 설명 | 역할·링크 |
 | :--- | :--- | :--- |
 | **TechDocs** | 자연어 기반 특허 검색 및 침해 분석 플랫폼 | AI Agent·RAG·Full-stack · [GitHub](https://github.com/neverleaveualong/TechDocs) · [Demo](https://techdocs-app.vercel.app) |
-| **TechLens** | 중소·중견기업의 경쟁사 기술 동향을 돕는 특허 분석 대시보드 | 더존ICT그룹/키컴 인턴십 · [GitHub (FE)](https://github.com/Douzone-Keycom-Internship-woohyun-2025/Frontend) · [GitHub (BE)](https://github.com/Douzone-Keycom-Internship-woohyun-2025/Backend) · [Docs](https://github.com/Douzone-Keycom-Internship-woohyun-2025/Docs) · [Demo](https://techlens-app.vercel.app/login) |
+| **TechLens** | 중소·중견기업의 경쟁사 기술 동향을 돕는 특허 분석 대시보드 | 더존ICT그룹/키컴 인턴십 · [GitHub (FE)](https://github.com/Douzone-Keycom-Internship-woohyun-2025/Frontend) · [GitHub (BE)](https://github.com/Douzone-Keycom-Internship-woohyun-2025/Backend) · [Demo](https://techlens-app.vercel.app/login) |
 | **Playce** | 위치와 조건을 기반으로 스포츠 중계 장소를 찾는 서비스 | Frontend·상태관리·지도 API · [GitHub](https://github.com/neverleaveualong/PlayceV) · [Demo](https://playce-app.vercel.app) |
 | **HyperStar** | AI 인플루언서 매칭 B2B 서비스 | QA에서 프론트엔드 연동까지 · 비공개 프로젝트 |
 
@@ -87,11 +87,10 @@
 - **프로젝트 개요**
   - 더존ICT그룹/키컴 인턴십에서 주요 고객인 중소·중견기업이 경쟁사 기술 동향을 파악할 수 있도록 KIPRIS 특허 분석 대시보드를 기획하고 구현했습니다.
   - KIPRIS는 특허 데이터가 많지만 사용자가 직접 비교·분석하기에는 복잡하다는 점에 주목해, 기술 분류와 기간별 추이를 한 화면에서 확인하는 방향으로 구성했습니다.
-- **코드와 문서**
+- **코드 저장소**
   - [Frontend 저장소](https://github.com/Douzone-Keycom-Internship-woohyun-2025/Frontend)
   - [Backend 저장소](https://github.com/Douzone-Keycom-Internship-woohyun-2025/Backend)
-  - [Docs 저장소](https://github.com/Douzone-Keycom-Internship-woohyun-2025/Docs)
-  - 프론트엔드, 백엔드, 문서를 분리해 각 책임과 변경 이력을 확인할 수 있도록 구성했습니다.
+  - 프론트엔드와 백엔드를 분리해 각 책임과 변경 이력을 확인할 수 있도록 구성했습니다.
 - **고객 문제와 해결 방향**
   - 고객 문제:
     - 경쟁사의 특허와 기술 분야 변화를 파악하려면 원천 데이터를 직접 검색하고 정리해야 했습니다.
