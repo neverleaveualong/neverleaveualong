@@ -1,113 +1,139 @@
 # 심우현 (SIM WOOHYUN)
-> **AI 에이전트 엔지니어 x 풀스택 엔지니어 (AI Agent x Fullstack Engineer)**  
-> [심우현 개발자 포트폴리오](https://simwoohyun.vercel.app) | wmr06244@naver.com
 
-제한된 자원(리소스 제약, 비용 한계, 네트워크 지연) 속에서 합리적인 설계 결정(Trade-off)을 내리고 비즈니스 신뢰성을 확보하는 것을 최우선으로 생각하는 엔지니어입니다.
+- 수정일자: 2026-07-30 17:10 KST
+- AI Agent · RAG · Full-stack Engineer
+- 제한된 비용과 인프라 안에서 AI 기능을 실제 웹 서비스로 연결하는 개발에 관심이 있습니다.
+- 모델 호출 자체보다 데이터 흐름, 검색 근거, API 계약, 화면 상태, 테스트 가능성을 함께 설계하려고 합니다.
+- 포트폴리오: [simwoohyun.vercel.app](https://simwoohyun.vercel.app)
+- 이메일: `wmr06244@naver.com`
 
-비결정적인 LLM의 불안정성(환각, 루프 비용, 응답 지연)을 시스템 및 통계 지표(RAGAS)로 통제하는 AI 에이전트 아키텍처 설계와, 프론트엔드-백엔드 간의 데이터 정밀 동기화 및 테스트 결정성 확보에 깊은 관심을 가지고 해결해 나가고 있습니다.
+## 목차
 
----
+- [1. 개발 방향](#1-개발-방향)
+- [2. 기술 역량](#2-기술-역량)
+- [3. 프로젝트 요약](#3-프로젝트-요약)
+- [4. 프로젝트별 경험](#4-프로젝트별-경험)
+- [5. 문제를 해결한 방식](#5-문제를-해결한-방식)
+- [6. 연락처와 참고 링크](#6-연락처와-참고-링크)
 
-## 🛠️ Tech Stack & Competencies
+## 1. 개발 방향
 
-| 분류 | 기술 스택 |
+- AI를 단순한 API 호출 기능이 아니라 데이터 수집, 검색, 생성, 검증, 사용자 화면이 연결된 서비스로 구현합니다.
+- 자연어 검색과 업무 자동화 기능을 만들 때 다음 흐름을 중요하게 봅니다.
+  - 사용자의 입력을 명확한 요청으로 변환합니다.
+  - 검색 결과에 근거와 출처를 연결합니다.
+  - 서버 진행 상태와 오류를 화면에 전달합니다.
+  - 반복 작업은 캐시, 재사용, 자동화로 줄입니다.
+- 구현 결과를 기술 이름보다 문제, 선택 이유, 검증 방법 중심으로 설명하려고 합니다.
+
+## 2. 기술 역량
+
+| 영역 | 경험한 기술과 활용 방식 |
 | :--- | :--- |
-| **AI & RAG** | `LangGraph (Multi-Agent)`, `LangChain`, `Pinecone (Vector DB)`, `SQLite FTS5`, `BM25`, `RAGAS Evaluation`, `OpenAI API` |
-| **Frontend & UX** | `React`, `TypeScript`, `Next.js`, `Zustand`, `TanStack Query`, `React Hook Form`, `Tailwind CSS`, `Playwright (E2E)` |
-| **Backend & Data** | `Node.js`, `FastAPI`, `Express`, `PostgreSQL`, `MySQL`, `TypeORM`, `Zod`, `Vitest` |
-| **DevOps & Infra** | `Docker`, `Docker Compose`, `GitHub Actions (CI/CD)`, `Vercel`, `Render` |
+| **AI · RAG** | `LangGraph`, `LangChain`, `OpenAI API`, `Pinecone`, `BM25`, `SQLite FTS5`, `RAGAS`를 활용한 검색·생성·평가 |
+| **Backend** | `Python`, `FastAPI`, `Node.js`, `Express`, `PostgreSQL`, `MySQL`, `TypeORM`, `Zod` |
+| **Frontend** | `React`, `Next.js`, `TypeScript`, `TanStack Query`, `Zustand`, `React Hook Form`, `Tailwind CSS` |
+| **품질·협업** | `Vitest`, `Jest`, `Playwright`, `GitHub Actions`, API 계약 관리, 예외 흐름 검토 |
+| **배포·운영** | `Docker`, `Docker Compose`, `Vercel`, `Render`, 외부 API 연동과 환경변수 관리 |
 
----
+## 3. 프로젝트 요약
 
-## 📂 Featured Projects
+| 번호 | 프로젝트 | 한 줄 설명 | 역할·링크 |
+| :---: | :--- | :--- | :--- |
+| 1 | **TechDocs** | 자연어 기반 특허 검색 및 침해 분석 플랫폼 | AI Agent·RAG·Full-stack · [GitHub](https://github.com/neverleaveualong/TechDocs) · [Demo](https://techdocs-app.vercel.app) |
+| 2 | **TechLens** | KIPRIS 특허 데이터를 활용한 기업 특허 분석 대시보드 | 더존ICT그룹/키컴 인턴십 · [GitHub](https://github.com/Douzone-Keycom-Internship-woohyun-2025) · [Demo](https://frontend-techlens.vercel.app/login) |
+| 3 | **Playce** | 위치와 조건을 기반으로 스포츠 중계 장소를 찾는 서비스 | Frontend·상태관리·지도 API · [GitHub](https://github.com/neverleaveualong/PlayceV) · [Demo](https://playce-app.vercel.app) |
+| 4 | **HyperStar** | AI 인플루언서 매칭 B2B 서비스 | QA에서 프론트엔드 연동까지 · 비공개 프로젝트 |
 
-| Project | Description | Links |
-| :--- | :--- | :--- |
-| **TechDocs** | 멀티 에이전트 RAG 기반 특허 문서 AI 검색 서비스 | [GitHub](https://github.com/neverleaveualong/TechDocs) • [Demo](https://techdocs-app.vercel.app) |
-| **TechLens** | 특허 공공데이터 기반 검색·분석 서비스 | [GitHub](https://github.com/Douzone-Keycom-Internship-woohyun-2025) • [Demo](https://frontend-techlens.vercel.app/login) |
-| **Playce** | 위치 기반 스포츠 중계 장소 검색 서비스 | [GitHub](https://github.com/neverleaveualong/PlayceV) • [Demo](https://playce-app.vercel.app) |
-| **HyperStar** | AI 인플루언서 마케팅 B2B SaaS (CES 2026 시연 제품) | *Source Private (CES 2026)* |
+## 4. 프로젝트별 경험
 
----
+### 4-1. TechDocs
 
-## 🔍 Project Details & Troubleshooting
+- **프로젝트 개요**
+  - KIPRIS 특허 데이터를 수집하고, 사용자가 자연어로 질문하면 관련 특허와 근거 기반 답변을 제공하는 프로젝트입니다.
+  - 검색 결과가 부족할 때 데이터 수집과 검색을 이어가는 AI Agent 흐름을 구현했습니다.
+  - 제품 설명과 특허 청구항을 비교하는 ClaimLens 분석 흐름을 별도로 구성했습니다.
+- **주요 구현**
+  - FastAPI 기반 API와 LangGraph 기반 Supervisor·Worker Agent 흐름을 구성했습니다.
+  - Pinecone 벡터 검색과 BM25 키워드 검색을 결합하고 RRF 방식으로 후보를 통합했습니다.
+  - SQLite FTS5를 보조 검색 저장소로 사용해 반복 검색에서 외부 벡터 저장소 의존을 줄였습니다.
+  - NDJSON·SSE 스트리밍으로 검색, 수집, 답변 생성, 분석 진행 상태를 프론트엔드에 전달했습니다.
+  - QueryLog와 Feedback을 연결해 검색 결과와 사용자 평가를 저장할 수 있도록 했습니다.
+  - React Query, `useReducer`, Custom Hook을 조합해 서버 상태와 스트림 화면 상태를 분리했습니다.
+- **트러블슈팅**
+  - 검색 결과가 부족한 경우에도 사용자가 현재 처리 단계를 알 수 있도록 Agent Timeline과 스트리밍 이벤트를 연결했습니다.
+  - 검색 로그 저장이 실패해도 검색 응답 자체가 중단되지 않도록 저장 책임과 검색 흐름을 분리했습니다.
+  - 검색 품질을 감으로 판단하지 않기 위해 RAGAS 평가와 검색 결과 샘플 검토를 사용해 청킹, 검색 결합, 근거 표시를 점검했습니다.
 
-### 1️⃣ TechDocs (자율 수집 RAG 특허 검색 서비스)
-> 사용자의 질문 의도를 다각도로 분석하여 특허 문서를 검색하고, 필요시 자율적으로 공공 데이터를 인제스천하여 신뢰성 있는 답변을 생성하는 RAG 시스템입니다.
+### 4-2. TechLens
 
-*   **Stack**: `FastAPI`, `LangGraph`, `LangChain`, `Pinecone`, `SQLite (FTS5)`, `SSE Streaming`, `RAGAS`, `Docker`
-*   **핵심 구현 요약**: LangGraph 기반의 순환형 멀티 에이전트 오케스트레이션, 실시간 추론 타임라인 가시화를 위한 FastAPI SSE 스트리밍 구축, Pinecone Vector Search와 BM25 키워드 검색을 병합한 하이브리드 검색 구현.
+- **프로젝트 개요**
+  - 더존ICT그룹/키컴 인턴십에서 KIPRIS 특허 데이터를 바탕으로 기업 특허 현황을 확인하는 대시보드를 구현했습니다.
+  - 출원인 기준 특허 검색, IPC 분포, 연도별·월별 추이, 특허 상태와 같은 정보를 화면에서 확인할 수 있도록 구성했습니다.
+- **주요 구현**
+  - React·TypeScript 프론트엔드와 Express·PostgreSQL 백엔드를 연결했습니다.
+  - 외부 특허 API 데이터를 수집하고 정제해 분석용 데이터로 저장했습니다.
+  - 대시보드 집계와 필터링을 위해 데이터베이스 구조와 API 흐름을 설계했습니다.
+  - TypeScript 타입과 Zod 검증을 적용해 외부 데이터와 사용자 입력의 경계를 확인했습니다.
+  - 인턴십 이후 테스트, 서버 상태관리, 예외 처리, 계층 분리를 중심으로 리팩토링을 진행했습니다.
+- **트러블슈팅**
+  - 외부 API에 모든 화면 요청을 직접 연결하지 않고 저장된 데이터를 우선 조회하는 흐름을 검토했습니다.
+  - 대시보드에서 반복되는 서버 요청과 화면 상태를 분리하기 위해 TanStack Query와 클라이언트 상태관리의 역할을 구분했습니다.
+  - 인증 만료와 다수 API 요청이 동시에 발생하는 상황을 고려해 토큰 갱신 요청의 중복 실행을 줄이는 흐름을 정리했습니다.
 
-#### 🛠️ 핵심 설계 결정 및 트러블슈팅 (Troubleshooting)
+### 4-3. Playce
 
-##### ① Render 512MB RAM 인프라 제약 극복을 위한 형태소 분석기(Kiwi) 배제
-*   **문제 정의**: 저사양 배포 서버 환경(Render.com 프리티어 512MB RAM)에서 한국어 형태소 분석기인 Kiwi C++ 모듈 로드 시, 메모리 오버플로우로 인한 컨테이너 크래시(OOM Killed) 및 스레드 데드락 장애 지속 발생.
-*   **대안 비교 및 채택**:
-    *   *대안 A (서버 스케일업)*: 비용이 크게 증가함 (기각).
-    *   *대안 B (KoNLPy/Mecab)*: Java Virtual Machine(JVM) 구동을 위한 메모리 베이스라인이 300MB를 상회해 FastAPI 구동 불가 (기각).
-    *   *대안 C (정규식 기반 조사 필터링 스태머)*: 추가 메모리 사용량 0MB. 형태소 분석 정확도 하락 리스크 (선택).
-*   **결과 검증**: C안을 채택해 사용자 정의 형태소 원형 매칭 알고리즘을 구현하였으며, RAGAS 정량적 평가 결과 기존 Kiwi 적용 대비 검색 정확도 하락이 **2% 미만**임을 확인하여 저사양 사양 환경에서 100% 가용성을 확보함.
+- **프로젝트 개요**
+  - 사용자의 위치와 스포츠 종목·상영 조건을 바탕으로 중계 장소를 지도에서 찾는 서비스입니다.
+- **주요 구현**
+  - React·TypeScript와 Kakao Maps SDK를 연동했습니다.
+  - 지도 영역, 필터, 장소 목록을 사용자 입력에 따라 갱신했습니다.
+  - Zustand는 화면 전반에서 공유하는 클라이언트 상태에 사용하고, TanStack Query는 서버 데이터를 관리하는 방향으로 구분했습니다.
+  - Vitest와 Playwright를 활용해 주요 상태 변화와 사용자 흐름을 검증했습니다.
+- **트러블슈팅**
+  - 외부 지도 SDK의 비동기 로딩을 고려해 지도 준비 상태와 사용자 상호작용 시점을 분리했습니다.
+  - 지도 상태와 URL 파라미터가 서로 다른 방향으로 갱신되지 않도록 상태 흐름과 공유 기준을 점검했습니다.
 
-##### ② Pinecone 네트워크 지연 및 인덱스 빌드 병목을 해결한 SQLite FTS5 로컬 검색 우회
-*   **문제 정의**: 검색 요청 시마다 Pinecone 벡터스토어에서 전체 원본 텍스트를 네트워크로 긁어와 메모리 단에서 BM25 인덱스를 동적으로 생성하던 방식에서 **평균 5초 이상의 네트워크 지연 및 API 타임아웃** 발생.
-*   **대안 비교 및 채택**:
-    *   *대안 A (Elasticsearch 클러스터 도입)*: 가장 대중적이나, 최소 1GB 이상의 백그라운드 메모리가 필요해 리소스 제약 상 불가 (기각).
-    *   *대안 B (SQLite FTS5 가상 테이블 로컬 FTS)*: 메모리 부담이 거의 없고 인프로세스로 즉시 조회가 가능하지만, 다중 서버(Scale-out) 환경 진입 시 데이터 동기화 이슈 존재 (선택).
-*   **결과 검증**: SQLite FTS5 가상 테이블을 구축하여 로컬 하이브리드 검색 구조로 전환, 후속 검색 레이턴시를 **0.1초 내외**로 50배 단축함. 서버 확장 시에는 Redisearch로 마이그레이션할 아키텍처 이정표 수립.
+### 4-4. HyperStar
 
-##### ③ 비결정적 에이전트 무한 루프로 인한 API 비용 폭탄 제어
-*   **문제 정의**: RAG 품질 평가(RAGAS) 시, 데이터 부족으로 인한 검색 신뢰도 저하 상태에서 Supervisor 에이전트가 `INGEST`와 `SEARCH` 단계를 판단 루프로 인식하여 동일 구간을 무한 반복 호출하며 불필요한 OpenAI API 비용을 소모함.
-*   **대안 및 해결**: 에이전트 상태 관리에 `max_iterations = 4` 리밋을 명시적으로 설계하고, LLM 판단 실패에 대응하는 규칙 기반 **Fallback Decision 레이어**를 이중으로 마련하여 예외 조건 발생 시 무한 비용 유출을 원천 방어함.
+- **프로젝트 개요**
+  - CES 2026 출품을 준비한 AI 인플루언서 매칭 B2B 서비스에 참여했습니다.
+  - 비공개 프로젝트이므로 공개 저장소에 소스코드나 내부 수치를 공유하지 않습니다.
+- **담당 범위**
+  - QA로 시작해 서비스 흐름과 API 동작을 확인하고, 이후 프론트엔드 수정과 백엔드 API 연동까지 범위를 넓혔습니다.
+  - 반복적인 핵심 시나리오 검증을 줄이기 위한 Claude Actions 기반 자동화 워크플로우 POC에 참여했습니다.
+  - 백엔드에 준비된 RAG API를 분석하고 재사용 가능한 Custom Hook으로 프론트엔드 비동기 상태와 연결했습니다.
+  - 데이터 관계와 서비스 흐름을 확인하는 과정에서 DB Cascade 설정과 같은 결함을 발견하고 수정 방향을 제안했습니다.
+  - CES 전시를 고려해 랜딩 화면, 페이지 흐름, SEO 관련 개선에도 참여했습니다.
+- **트러블슈팅**
+  - 수동 QA만 반복하지 않도록 주요 사용자 시나리오를 자동화할 수 있는 범위를 먼저 분리했습니다.
+  - 백엔드 기능이 존재해도 프론트엔드 상태 처리와 연결되지 않으면 사용자 기능이 완성되지 않는다는 점을 확인하고, API 계약과 Hook 책임을 함께 정리했습니다.
 
----
+## 5. 문제를 해결한 방식
 
-### 2️⃣ TechLens (특허 공공데이터 기반 검색·분석 서비스)
-> KIPRIS API 데이터를 배치 수집/정제하고 연도별 출원 추이, 등록 상태 등을 시각화하여 제공하는 대시보드 플랫폼입니다.
+- **검색 품질**
+  - 벡터 검색만 사용하지 않고 키워드 검색과 결과 결합을 함께 검토합니다.
+  - 답변에 사용된 특허와 출처를 확인할 수 있도록 검색 결과와 생성 결과를 연결합니다.
+  - 평가셋과 샘플 결과를 기준으로 검색·청킹·프롬프트 변경의 영향을 확인합니다.
+- **서비스 안정성**
+  - 외부 API, 벡터 저장소, LLM 호출이 실패해도 사용자에게 적절한 오류와 진행 상태를 전달합니다.
+  - 부가 기능인 로그 저장 실패가 핵심 검색 응답을 막지 않도록 책임과 실패 범위를 분리합니다.
+  - 환경변수와 비공개 API 키는 코드와 공개 문서에 포함하지 않습니다.
+- **프론트엔드 상태관리**
+  - 백엔드에서 관리되는 서버 상태와 화면에서만 필요한 UI 상태를 구분합니다.
+  - React Query는 조회·캐시·갱신에, Zustand 또는 `useReducer`는 클라이언트 상호작용과 스트림 진행 상태에 사용합니다.
+  - 로딩, 성공, 빈 결과, 오류, 재시도 상태를 화면 흐름에 포함합니다.
+- **유지보수성**
+  - Controller 또는 Router에는 요청과 응답 처리를 두고, 비즈니스 흐름은 Service 또는 Use Case에서 관리합니다.
+  - Repository는 데이터 접근과 저장을 담당하게 하며, API 계약과 데이터 모델을 문서로 남깁니다.
+  - 기능 변경과 구조 개선을 분리하고, 변경 범위를 작게 유지한 뒤 테스트와 diff를 확인합니다.
 
-*   **Stack**: `React`, `TypeScript`, `Express`, `PostgreSQL`, `Zod`, `Chart.js`
-*   **핵심 구현 요약**: JWT (Access/Refresh) 기반 보안 인증, 통계 처리를 위한 DB 스키마 설계, Controller-Service-Repository 패턴 적용을 통한 비즈니스 로직 격리.
+## 6. 연락처와 참고 링크
 
-#### 🛠️ 핵심 설계 결정 및 트러블슈팅 (Troubleshooting)
-
-##### ① Axios API 호출 예외 시 인증 서비스 키(Service Key) 노출 보안 리스크 해결
-*   **문제 정의**: KIPRIS 공공 API 호출 실패 시 발생하는 Axios 에러 객체의 `config` 프로퍼티 내부 URL에 **비공개 API 서비스 키**가 노출되어, 서버 스택트레이스 및 외부 모니터링 로그에 전송되는 기밀 유출 보안 취약점 발견.
-*   **대안 및 해결**: 백엔드 API 서비스 레이어의 모든 외부 요청 catch 블록에 Axios Error 판정 조건식을 적용하여, 예외 버블링 전에 `err.config` 데이터를 즉시 `undefined`로 초기화하도록 가로채기(Interceptor) 보안 레이어 추가.
-*   **결과 검증**: 외부 연동 장애 시 로그 모니터링 툴에 API Key 평문 노출 가능성을 0%로 통제함.
-
-##### ② 외부 API 레이턴시 병목 우회를 위한 Idempotent 배치 파이프라인 및 Zod 검증 설계
-*   **문제 정의**: KIPRIS API의 엄격한 일일 호출 쿼터 제한 및 느린 레이턴시(호출당 3초 이상)로 인해 사용자 요청 마다 대시보드를 실시간 쿼리 시 타임아웃 장애 빈발. 공공데이터 특유의 Null 값 유실 및 불규칙한 데이터 포맷으로 인한 Postgres Insert 실패.
-*   **대안 및 해결**: 
-    1.  **배치 격리**: 실시간 조회를 백그라운드 동기화 스케줄러로 격리하고, DB 중복 인서트 에러 방지를 위해 PostgreSQL의 `ON CONFLICT (application_number) DO UPDATE` 구문을 사용해 멱등성(Idempotency)을 보장함.
-    2.  **Zod 필터링**: XML-to-JSON 파싱 과정에서 들어오는 유실되거나 비정상적인 데이터 규격을 검증하기 위해 **Zod 스키마 검증** 레이어를 데이터 인제스천 진입점에 격리 배치하여 적재 안정성 확보.
-*   **결과 검증**: 실시간 API 호출 병목을 차단하여 대시보드 로딩 속도를 **0.1초 내외**로 개선하고 데이터 적재 무결성을 100% 유지함.
-
----
-
-### 3️⃣ Playce (위치 기반 스포츠 중계 장소 검색 서비스)
-> 사용자의 현재 위치를 기반으로 실시간 스포츠 중계를 방영하는 매장을 카카오맵에 매핑하고 필터링해주는 위치 기반 서비스입니다.
-
-*   **Stack**: `React`, `TypeScript`, `Zustand`, `TanStack Query`, `Vitest`, `Playwright`, `Kakao Maps SDK`
-*   **핵심 구현 요약**: Kakao Maps API 연동 및 드래그 바운더리 동적 마커 필터링 구현, Zustand를 통한 클라이언트 전역 상태 관리 및 TanStack Query를 통한 서버 캐싱 동기화.
-
-#### 🛠️ 핵심 설계 결정 및 트러블슈팅 (Troubleshooting)
-
-##### ① 비동기 지도 SDK 마운팅 지연에 따른 CI/CD E2E 테스트 Flakiness(결정성 결여) 제어
-*   **문제 정의**: GitHub Actions CI 파이프라인에서 E2E 테스트 자동 실행 시, 카카오맵 외부 스크립트가 로딩 완료되기도 전에 Playwright 테스트 러너가 클릭/드래그 인터랙션을 실행하여 빌드가 무작위로 깨져 배포를 차단하는 장애 유발.
-*   **대안 비교 및 채택**:
-    *   *대안 A (임의의 sleep 대기)*: 빌드 속도를 무의식적으로 지연시키며 완벽한 타이밍 동기화 불가능 (기각).
-    *   *대안 B (E2E 테스트 시 Canvas 마커 테스트 격리 및 Unit 보완)*: GPU 가속이 없는 가상화 headless 러너 특성상 WebGL 기반 마커 렌더링은 `test.skip(!!process.env.CI)`로 분리하되, 상태와 URL 로직은 로컬 단위 테스트로 촘촘히 보완 (선택).
-*   **결과 검증**: 외부 SDK 로딩 비결정성으로 인해 깨지던 CI 테스트 빌드 실패율을 **0%**로 낮춰 배포 흐름을 안정화하고, 100개 이상의 유닛 테스트 커버리지로 비즈니스 로직 안정성 동시 확보.
-
-##### ② 상태 결합성 해결을 위한 URLSearchParams 단방향 데이터 동기화 설계
-*   **문제 정의**: 지도 뷰포트 좌표 상태, 필터 조건(Zustand), 그리고 뒤로가기/페이지 공유용 URL 파라미터가 3방향으로 얽히면서 무한 리렌더링 및 렌더 루프 상태가 발생하는 설계 버그 발견.
-*   **대안 및 해결**: URL 쿼리 파라미터를 단 하나의 **싱글 소스 오브 트루스(SSOT)**로 격리하고, Zustand 스토어와 지도 SDK는 URL의 파라미터 변경 정보만을 구독(Subscribe)하여 단방향으로 흐르게 흐름을 정리함.
-*   **결과 검증**: 상태 엉킴 현상과 무한 렌더링 발생률을 완전히 제거하여 사용자 브라우저 성능 최적화.
-
----
-
-### 4️⃣ HyperStar (AI 인 인플루언서 마케팅 B2B SaaS)
-*   **Stack**: `React`, `TypeScript`, `Zustand`, `React Query`, `Recharts`
-*   **담당 업무**: **시연 제품 신뢰성 QA 및 백그라운드 상태 전송 설계** (CES 2026 출품)
-*   **핵심 설계결정 및 트러블슈팅**:
-    *   **대시보드 실시간 렌더링 병목 최적화**: 대용량 실시간 대시보드 차트 데이터를 처리할 때, Zustand 전역 스토어의 불필요한 상태 변경 감지로 화면 전체가 리렌더링되는 프레임 드랍 현상 발견. React Query의 `select` 옵션을 이용해 컴포넌트 단위로 필요한 서브셋 데이터만 얕은 비교(Shallow Compare)하도록 데이터 파이프라인을 튜닝하여, 렌더링 부하를 감소시키고 프레임 안정성(60fps) 확보.
-    *   **예외 상태 추적 및 로깅**: 비공개 코드베이스 하에서 API 에러 발생 시 프론트엔드가 먹통이 되던 예외 상태를 방어하기 위해 Axios Interceptor에 에러 바운더리 레포팅 레이어를 설계하여 테스팅 효율 향상.
+- 포트폴리오: [simwoohyun.vercel.app](https://simwoohyun.vercel.app)
+- GitHub: [github.com/neverleaveualong](https://github.com/neverleaveualong)
+- 이메일: `wmr06244@naver.com`
+- 공개 프로젝트:
+  - [TechDocs](https://github.com/neverleaveualong/TechDocs)
+  - [PlayceV](https://github.com/neverleaveualong/PlayceV)
+  - [TechLens](https://github.com/Douzone-Keycom-Internship-woohyun-2025)
